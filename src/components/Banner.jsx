@@ -14,7 +14,7 @@ const Banner = () => {
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-8 lg:flex-row">
           {/* Text */}
-          <div className="flex-1 text-center font-secondary lg:text-left lg:items-center lg:gap-x-12">
+          <div className="flex-1 text-center font-secondary lg:text-left  lg:gap-x-12">
             <motion.h1
               variants={fadeIn("up", 0.3)}
               initial="hidden"
@@ -40,6 +40,7 @@ const Banner = () => {
                 repeat={Infinity}
               />
             </motion.div>
+
             <motion.p
               variants={fadeIn("up", 0.6)}
               initial="hidden"
@@ -52,6 +53,7 @@ const Banner = () => {
               mollitia amet temporibus quibusdam totam hic dolore harum
               perferendis facere esse omnis animi est!
             </motion.p>
+            {/* Btns */}
             <motion.div
               variants={fadeIn("up", 0.7)}
               initial="hidden"
